@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef2ff, #dbeafe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.input-group input {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.input-group button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filters button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: #f1f5f9;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+
+.filters .active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+#searchtask {
+  padding: 8px;
+  width: 220px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #f1f5f9;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.pending {
+  background: #b0edd9;
+  color: #374151;
+}
+
+.done {
+  background: #22c55e;
+  color: white;
+}
+
+.edit-btn {
+  background: #b5cc42;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: rgb(6, 3, 3);
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: rgb(14, 4, 4);
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
